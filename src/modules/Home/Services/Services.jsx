@@ -85,7 +85,7 @@ function Services() {
 
         <Slider
           {...settings}
-          className="d-flex justify-content-center 	d-none d-lg-block d-xl-none"
+          className="d-flex justify-content-center d-none d-lg-block d-xl-none"
         >
           <div className="d-flex justify-content-center slider-package">
             {data.slice(0, 4).map((item, index) => {
